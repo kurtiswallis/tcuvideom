@@ -1,7 +1,17 @@
 body {
-	background-image: url("Screen Shot 2020-03-30 at 11.00.20 AM.png");
-	background-repeat: no-repeat;
-   	background-size: 99%;
-	max-width: 100%;
-	height: auto;
+	#ifMobile1 {
+    background-image: url(Screen Shot 2020-03-30 at 11.00.20 AM.png)
+    background-repeat: no-repeat
+	    max-width: 100%  ;
+    height: auto  ;
 }
+
+@media all and (max-width: 499px) {
+    #ifMobile1 {
+        background-image: url(Screen Shot 2020-04-09 at 10.01.11 AM.png)
+        background-repeat: no-repeat
+		max-width: 499px;
+        height: auto  ;
+    }
+}
+	
